@@ -143,9 +143,6 @@ body {
             text-align: center;
         }
 
-        .menu .menu-info li a {
-        }
-
         .menu .menu-info li a:active,    
         .menu .menu-info li a:hover,
         .menu .menu-icons li a:active,    
@@ -153,35 +150,8 @@ body {
             background-color: #f3f9f9;
             color: #4facfe;
         }
-
-        .menu-icons {
-        }
     
-        .menu-icons li {
+        a {
+            color:#f3f9f9;
+            text-decoration: none;
         }
-        .menu-icons a {
-        }
-    
-        .suspend-menu a:active,    
-        .suspend-menu a:hover{
-        }
-
-    a {
-        color:#f3f9f9;
-        text-decoration: none;
-
-@media (min-width: 400px) {
-    body {
-        font-size: 20px;
-    }
-}
-@media (min-width: 600px) {
-    body {
-        font-size: 24px;
-    }
-}
-@media (min-width: 1200px) {
-    body {
-        font-size: 28px;
-    }
-}
